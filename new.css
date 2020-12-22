@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+body {
+  font-family: 'Oswald', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url('beach.jpg') no-repeat center;
+  background-size: cover;
+}
+
+#darkMode {
+  margin-left: 195px;
+}
+.menu {
+  position: relative;
+  left: 100px;
+  top: 70px;
+  /*margin: 0 300px 200px 150px;
+  /*margin-left: 150px;
+  margin-top: 120px;*/
+}
+
+.menu h1 {
+  margin-bottom: 20px;
+}
